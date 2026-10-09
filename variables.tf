@@ -5,7 +5,6 @@ variable "subscription_id" {
   sensitive   = true
 }
 
-
 variable "service_plan_sku_name" {
   type    = string
   default = "F1"
@@ -29,9 +28,8 @@ variable "log_analytics_sku" {
   default     = "PerGB2018"
 }
 
-
 variable "web_app_name" {
   description = "Nombre de la aplicación web del entorno QA"
   type        = string
-  default     = "app-utvt-integradora-web-qa-mxc-001"
+  default     = "app-utvt-arv-qa-2026-001"
 }
